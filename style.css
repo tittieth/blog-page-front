@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color: #F4EEED;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #EFD9D1;
+}
+
+.blogheader {
+    margin: 100px 0 50px 0;
+}
+
+.blogposts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 100vw;
+
+}
+
+li {
+    position: relative;
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+    min-height: 150px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+li h1 {
+    margin-bottom: 20px;
+}
+
+.txt_field:first-of-type {
+    margin-right: 15px;
+}
+
+.txt_field {
+    margin-top: 5px;
+}
+
+#name, #password {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.blogheader {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.log-in-form {
+    padding: 15px;
+}
+
+.log-in-form h1 {
+    margin-left: 20px;
+}
+
+.login-btn {
+    background-color: #D8AC9C;
+    border: none;
+    border-radius: 10px;
+    width: 65px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+#formId {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.login-div {
+    display: flex;
+}
+
+.signup_link {
+    display: flex;
+    align-items: center;
+}
+
+.signup_link p {
+    font-size: 1.2rem;
+}
+
+#signUpBtn {
+    background-color: #D8AC9C;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 65px;
+    height: 40px;
+}
+
+#content {
+    padding: 10px;
+    background-color: red;
+}
+
+#textArea {
+    margin: auto;
+    width: 70%;
+
+}
+
+#title {
+    padding: 5px 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+#saveBtn, .log-out-btn {
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: #EFD9D1;
+    border: none;
+}
+
+.log-out-btn {
+    background-color: #D8AC9C;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#saveBtn:hover {
+    background-color: #D8AC9C;
+}
+
+.log-out-btn:hover {
+    background-color: #F4EEED;
+}
+
+footer {
+    background-color: #EFD9D1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
